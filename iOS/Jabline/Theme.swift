@@ -1,0 +1,17 @@
+import SwiftUI
+
+/// Unique visual identity for Jabline.
+enum Theme {
+    static let background = Color(red: 0.106, green: 0.102, blue: 0.180)
+    static let accent = Color(red: 0.482, green: 0.549, blue: 1.000)
+    static let secondary = Color(red: 0.667, green: 0.706, blue: 0.910)
+    static let cardBackground = background.opacity(0.92)
+
+    static let titleFont = Font.system(.title2, design: .rounded).weight(.bold)
+    static let headlineFont = Font.system(.headline, design: .rounded).weight(.semibold)
+    static let bodyFont = Font.system(.body, design: .rounded)
+    static let captionFont = Font.system(.caption, design: .rounded)
+
+    static let cornerRadius: CGFloat = 16
+    static let spacing: CGFloat = 12
+}

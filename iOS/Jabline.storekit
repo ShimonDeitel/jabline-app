@@ -1,0 +1,40 @@
+{
+  "identifier": "storekit_config",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {},
+  "subscriptionGroups": [
+    {
+      "id": "group_pro",
+      "localizations": [],
+      "name": "Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "pro_monthly",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Unlocks unlimited entries and premium features.",
+              "displayName": "Jabline Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.shimondeitel.vaxtrack.pro_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Jabline Pro Monthly",
+          "subscriptionGroupID": "group_pro",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
